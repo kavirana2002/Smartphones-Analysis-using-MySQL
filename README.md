@@ -1,14 +1,14 @@
-# Smartphones SQL Project
+# 📱 Smartphones SQL Project
 
 A SQL project built to practice and demonstrate SQL querying skills using a smartphones dataset in MySQL. The project covers basic selection, filtering, aggregation, grouping, and sorting queries.
 
-## Database Used
+## 🛠️ Database Used
 MySQL
 
-## Dataset
+## 📊 Dataset
 The dataset (`smartphones.csv`) was provided by my teacher as part of a coursework exercise. It contains specifications and details for a range of smartphones across multiple brands.
 
-## Project Structure
+## 📂 Project Structure
 ```
 smartphones/
 │-- sql-project-smartphones.sql   # All SQL queries (schema use + analysis)
@@ -16,7 +16,7 @@ smartphones/
 │-- README.md
 ```
 
-## Table: `smartphones`
+## 🧾 Table: `smartphones`
 | Column                     | Description                                  |
 |-----------------------------|-----------------------------------------------|
 | brand_name                  | Brand of the smartphone (e.g., Samsung, Apple) |
@@ -46,7 +46,7 @@ smartphones/
 | resolution_width            | Screen resolution width                       |
 | resolution_height           | Screen resolution height                      |
 
-## How to Run
+## ▶️ How to Run
 1. Install MySQL if you haven't already.
 2. Create a database and import the dataset:
    ```sql
@@ -56,18 +56,18 @@ smartphones/
 3. Import `smartphones.csv` into a table named `smartphones` using MySQL Workbench's Table Data Import Wizard, or load it via `LOAD DATA INFILE`.
 4. Run any query from `sql-project-smartphones.sql` to explore the data.
 
-## What the Queries Cover
+## ✅ What the Queries Cover
 The `sql-project-smartphones.sql` file includes queries grouped by SQL concept:
 
-- **Basic SELECT** – viewing all or specific columns, using aliases
-- **DISTINCT** – finding unique brands, processors, and operating systems
-- **Filtering (WHERE, AND, OR, IN, BETWEEN)** – e.g., phones by brand, price range, rating, processor type
-- **Aggregate functions (MIN, MAX, AVG, SUM, COUNT)** – e.g., cheapest/costliest phone, average rating per brand
-- **Sorting (ORDER BY, LIMIT, OFFSET)** – e.g., top 5 Samsung phones by screen size, phone with 2nd largest battery
-- **Grouping (GROUP BY)** – e.g., average price by brand, average rating by NFC/5G availability
-- **Combined analysis** – e.g., top 5 costliest brands by average price, brands supporting both NFC and IR blaster
+- 🔹 **Basic SELECT** – viewing all or specific columns, using aliases
+- 🔹 **DISTINCT** – finding unique brands, processors, and operating systems
+- 🔹 **Filtering (WHERE, AND, OR, IN, BETWEEN)** – e.g., phones by brand, price range, rating, processor type
+- 🔹 **Aggregate functions (MIN, MAX, AVG, SUM, COUNT)** – e.g., cheapest/costliest phone, average rating per brand
+- 🔹 **Sorting (ORDER BY, LIMIT, OFFSET)** – e.g., top 5 Samsung phones by screen size, phone with 2nd largest battery
+- 🔹 **Grouping (GROUP BY)** – e.g., average price by brand, average rating by NFC/5G availability
+- 🔹 **Combined analysis** – e.g., top 5 costliest brands by average price, brands supporting both NFC and IR blaster
 
-## Sample Queries
+## 💡 Sample Queries
 ```sql
 -- List all Samsung smartphones with RAM capacity greater than 8 GB
 SELECT *
@@ -91,5 +91,9 @@ ORDER BY battery_capacity DESC
 LIMIT 1 OFFSET 1;
 ```
 
-## Author
+## 👤 Author
 This project was created as a learning exercise to practice SQL querying — covering filtering, aggregation, grouping, and sorting — on a real-world smartphone specifications dataset.
+
+## 🔗 Connect with Me
+- GitHub: https://github.com/kavirana2002
+- LinkedIn: https://www.linkedin.com/in/kanak-rana-b0630631a
